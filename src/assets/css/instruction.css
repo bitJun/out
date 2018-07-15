@@ -1,0 +1,204 @@
+.instruction_view {
+  width: 920px;
+  z-index: 9999;
+  position: fixed;
+  height: 466px;
+}
+
+.instruction_view .water-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 800px;
+  z-index: 9999;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Special_cabinet {
+  position: relative;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Special_cabinet .close {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  cursor: pointer;
+}
+
+.Special_cabinet .title {
+  height: 68px;
+  background: #1054FF;
+}
+
+.Special_cabinet .title h4 {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.Special_cabinet .title p {
+  font-size: 14px;
+  color: #B9D0FF;
+}
+
+.Special_cabinet .kefu,
+.Special_cabinet .kefu_tel {
+  background: #ffffff;
+}
+
+.Special_cabinet .kefu {
+  width: 621px;
+  text-align: center;
+  height: 124px;
+}
+
+.Special_cabinet .kefu h4 {
+  color: #1054FF;
+  margin-bottom: 16px;
+  padding-top: 23px;
+}
+
+.Special_cabinet .kefu p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333333;
+}
+
+.Special_cabinet table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.Special_cabinet table thead {
+  background: #EFF4FF;
+  font-size: 12px;
+  color: #666666;
+}
+
+.Special_cabinet table thead tr {
+  height: 40px;
+}
+
+.Special_cabinet table thead tr td {
+  line-height: 20px;
+  border: 1px solid #DAE6FF;
+}
+
+.Special_cabinet table tbody tr {
+  height: 40px;
+}
+
+.Special_cabinet table tbody tr td:first-child {
+  background: #EFF4FF;
+}
+
+.Special_cabinet table tbody tr td {
+  border: 1px solid #DAE6FF;
+  line-height: 40px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.Special_cabinet .kefu_tel {
+  width: 299px;
+  height: 124px;
+}
+
+.Special_cabinet .kefu_tel ul {
+  padding-top: 15px;
+}
+
+.Special_cabinet .kefu_tel ul li:first-child .who {
+  height: 26px;
+  width: 90px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #1054FF;
+  line-height: 26px;
+  position: relative;
+  text-align: center;
+}
+
+.Special_cabinet .kefu_tel ul li:first-child .who img {
+  position: absolute;
+  left: 8px;
+  width: 12px;
+  height: 13px;
+  top: 6px;
+}
+
+.Special_cabinet .kefu_tel ul li:first-child p {
+  height: 26px;
+  line-height: 26px;
+}
+
+.Special_cabinet .kefu_tel ul li:nth-child(2n) .who {
+  text-indent: 8px;
+  height: 30px;
+  width: 88px;
+  border: 1px solid #1054FF;
+  font-size: 12px;
+  color: #1054FF;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Special_cabinet .kefu_tel ul li:nth-child(2n) p {
+  height: 32px;
+  line-height: 32px;
+}
+
+.Special_cabinet .kefu_tel ul li:last-child {
+  margin-top: 6px;
+}
+
+.Special_cabinet .kefu_tel ul li:last-child .who {
+  height: 28px;
+  width: 90px;
+  display: block;
+  /* border: 1px solid #C9C9C9; */
+  line-height: 28px;
+  font-size: 12px;
+  color: #5D5D5D;
+  position: relative;
+}
+
+.Special_cabinet .kefu_tel ul li:last-child .who img {
+  /* margin-left: 8px;
+  width: 17px;
+  height: 19px;
+  margin-top: 6px; */
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.Special_cabinet .kefu_tel ul li:last-child p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.Special_cabinet .kefu_tel ul li p {
+  text-indent: 20px;
+  font-size: 12px;
+  color: #999999;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

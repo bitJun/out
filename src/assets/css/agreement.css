@@ -1,0 +1,70 @@
+.agreement {
+  width: 920px;
+  margin: 0px auto;
+}
+
+.agreement h3 {
+  font-size: 28px;
+  color: #1054FF;
+  margin-bottom: 20px;
+}
+
+.agreement .detail {
+  border: 1px solid #EEEEEE;
+  height: 500px;
+  border-top-color: #1054FF;
+  padding: 2px 30px 0px 30px;
+  overflow-y: auto;
+  margin-bottom: 56px;
+}
+
+.agreement .detail h4 {
+  font-size: 16px;
+  margin-top: 44px;
+  color: #1054FF;
+  margin-bottom: 20px;
+}
+
+.agreement .detail ul {
+  padding-left: 10px;
+}
+
+.agreement .detail ul li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.agreement .detail ul li span {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.agreement .detail ul li .sub {
+  position: relative;
+  padding-left: 20px;
+}
+
+.agreement .detail ul li .sub span {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+}
+
+.agreement .detail ul li .sub ul,
+.agreement .detail ul li .sub ul li {
+  padding: 0px
+}
+
+.agreement .sure {
+  width: 220px;
+  height: 40px;
+  color: #ffffff;
+  background: #FF6600;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}

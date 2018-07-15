@@ -1,0 +1,129 @@
+.inquiry_detail {
+  border-top: 1px solid #eeeeee;
+}
+
+.inquiry_detail .title {
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0px 25px 0px;
+}
+
+.inquiry_detail .title p {
+  width: 944px;
+  margin: 0px auto;
+  font-size: 18px;
+}
+
+.inquiry_detail .title p a {
+  color: #1054FF;
+  margin-left: 10px;
+}
+
+.inquiry_detail .detail_main {
+  width: 944px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+
+.inquiry_detail .detail_main .base_info {
+  background: #F6F6F6;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #999999;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.inquiry_detail .detail_main .base_info span {
+  margin-left: 30px;
+}
+
+.inquiry_detail .detail_main .line {
+  font-size: 20px;
+  color: #333333;
+}
+
+.inquiry_detail .detail_main .line span {
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.inquiry_detail .Special_cabinet,
+.inquiry_detail .normal_cabinet,
+.inquiry_detail .service,
+.Arrival_time {
+  margin-top: 10px;
+}
+
+.inquiry_detail .Special_cabinet p,
+.inquiry_detail .normal_cabinet p,
+.inquiry_detail .service p,
+.Arrival_time p {
+  color: #333333;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.inquiry_detail .Special_cabinet li,
+.inquiry_detail .service li,
+.Arrival_time .time {
+  font-size: 12px;
+  height: 23px;
+  line-height: 23px;
+  text-indent: 10px;
+  color: #2a2a2a;
+}
+
+.normal_cabinet ul {
+  padding-left: 10px;
+}
+
+.normal_cabinet li {
+  float: left;
+  font-size: 12px;
+  height: 23px;
+  line-height: 23px;
+  color: #2a2a2a;
+  padding-right: 5px;
+}
+
+.operate_btns {
+  margin-top: 30px;
+}
+
+.operate_btns li {
+  margin-right: 10px;
+}
+
+.operate_btns li a {
+  width: 148px;
+  height: 38px;
+  border: 1px solid #FF6600;
+  color: #ff6600;
+  display: block;
+  background: #ffffff;
+  text-align: center;
+  line-height: 38px;
+  font-size: 14px;
+}
+
+.operate_btns li a:hover {
+  background: #FFFFFF;
+  border: 1px solid #FF6600;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 3px;
+}
+
+.operate_btns li .active {
+  color: #ffffff;
+  background: #FF6600;
+}
+
+.operate_btns li .active:hover {
+  background: #FF7317;
+  -webkit-box-shadow: 0 2px 4px 0 #FFC39B;
+  box-shadow: 0 2px 4px 0 #FFC39B;
+  border-radius: 3px;
+}

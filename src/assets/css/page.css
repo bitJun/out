@@ -1,0 +1,35 @@
+.pag_nav {
+  font-size: 12px;
+}
+
+.pag_nav .pagination {
+  height: 22px;
+  line-height: 22px;
+  margin-right: 10px;
+}
+
+.pag_nav .pagination li {
+  float: left;
+  margin-left: 5px;
+}
+
+.pag_nav .pagination li a {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  display: block;
+  color: #333333;
+  line-height: 18px;
+  text-align: center;
+}
+
+.pag_nav .pagination .active a {
+  background: #1054FF;
+  color: #ffffff;
+}
+
+.pag_nav .topage {
+  width: 48px;
+  height: 20px;
+  border: 1px solid #eeeeee;
+}

@@ -1,0 +1,298 @@
+.account_view,
+.account_main {
+  border-top: 1px solid #eeeeee;
+}
+
+.account_view .title {
+  padding: 22px 0px 23px 0px;
+  width: 944px;
+  margin: 0px auto;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+}
+
+.account_view .title .Permissions,
+.account_view .title .tips {
+  position: absolute;
+  right: 0px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.account_view .title .tips {
+  color: #999;
+}
+
+.account_view .title .Permissions {
+  top: 22px;
+  color: #333;
+}
+
+.account_view .title .Permissions span {
+  color: #FF6600;
+}
+
+.account_view .title .tips {
+  bottom: 23px;
+}
+
+.account_info {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.information {
+  width: 550px;
+}
+
+.personal_card {
+  width: 350px;
+}
+
+.personal_info section {
+  padding: 22px 0px 30px 0px;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.personal_info section .error input {
+  background: #FFD5D5;
+  border: 1px solid red;
+}
+
+.personal_info section:last-child {
+  border-bottom: 0px;
+}
+
+.personal_info section .form-group {
+  margin-bottom: 13px;
+}
+
+.personal_info section .form-group:last-child {
+  margin-bottom: 0px;
+}
+
+.personal_info .info_title {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  position: relative;
+  padding-left: 27px;
+}
+
+.personal_info .info_title img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.personal_info .form-group {
+  height: 30px;
+}
+
+.personal_info .form_label {
+  height: 30px;
+  line-height: 30px;
+  width: 88px;
+  padding-right: 10px;
+  font-size: 12px;
+  position: relative;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.personal_info .form_label .must {
+  position: absolute;
+  right: 0px;
+  top: 3px;
+}
+
+.personal_info .form_input {
+  height: 28px;
+  border: 1px solid #dddddd;
+  line-height: 28px;
+  text-indent: 10px;
+}
+
+.readonly {
+  background: #F6F6F6;
+}
+
+.can_edit {
+  background: #ffffff;
+}
+
+.personal_info .input_name {
+  width: 158px;
+}
+
+.personal_info .input_company {
+  width: 428px;
+}
+
+.personal_info .input_connect {
+  width: 358px;
+}
+
+.personal_info .input_extension {
+  width: 78px;
+}
+
+.personal_info .input_zone {
+  width: 78px;
+}
+
+.personal_info .input_number {
+  width: 186px;
+}
+
+.personal_info .email {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  width: 120px;
+}
+
+.personal_info .phone {
+  height: 30px;
+  line-height: 30px;
+  margin-right: 6px;
+  font-size: 12px;
+  width: 82px;
+}
+
+.personal_info .change {
+  color: #1054FF;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.personal_info .email_info img {
+  margin-left: 35px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.personal_info .phone_info img {
+  margin-left: 40px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.edit_account {
+  height: 40px;
+  width: 150px;
+  line-height: 40px;
+  color: #ffffff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background: #ff6600;
+  display: block;
+  text-align: center;
+  margin-left: 106px;
+  margin-top: 13px;
+}
+
+.edit_account:hover {
+  background: #FF7317;
+}
+
+.personal_info {
+  position: relative;
+}
+
+.personal_info .edit-user {
+  position: absolute;
+  right: -25px;
+  color: #1054FF;
+  font-size: 12px;
+}
+
+.personal_info .edit-user img {
+  margin: 0 auto;
+  display: block;
+}
+
+.card_detail {
+  padding: 19px 21px;
+  background: #E8EDFE;
+  border: 3px solid #1054FF;
+  color: #333333;
+  font-size: 12px;
+}
+
+.card_title {
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  padding: 22px 0px 18px 29px;
+  font-size: 14px;
+  color: #333;
+  font-weight: normal;
+}
+
+.card_title img {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+.card_detail .name {
+  font-size: 22px;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+.card_detail .company_name {
+  padding-bottom: 4px;
+  height: 23px;
+  line-height: 23px;
+  border-bottom: 2px solid #a8c0fb;
+}
+
+.card_detail .info_list {
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.card_detail .info_list li {
+  width: 50%;
+  height: 17px;
+  line-height: 17px;
+  float: left;
+}
+
+.card_detail .info_list li p {
+  color: #999999;
+  width: 24px;
+  margin-right: 6px;
+  text-align: right;
+}
+
+.card_detail .company_address {
+  /* height: 23px;
+  line-height: 23px; */
+}
+
+.save_tips {
+  background: #1054FF;
+  color: #ffffff;
+  height: 110px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+  line-height: 110px;
+  font-size: 20px;
+}
+
+.save_tips img {
+  height: 49px;
+  width: 49px;
+  vertical-align: middle;
+  margin-right: 22px;
+}

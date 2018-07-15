@@ -1,0 +1,126 @@
+.change_dialog {
+  background: #ffffff;
+  width: 580px;
+  z-index: 9999;
+  position: fixed;
+  height: 334px;
+}
+
+.change_dialog .dialog {
+  position: relative;
+}
+
+.change_dialog .close {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  cursor: pointer;
+}
+
+.change_dialog .title {
+  height: 78px;
+  background: #1054FF;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 78px;
+}
+
+.change_dialog .change_form {
+  padding: 40px 120px 48px 58px;
+}
+
+.change_dialog .form-group {
+  height: 60px;
+}
+
+.change_dialog .form-group:last-child {
+  margin-bottom: 0px;
+  padding-top: 12px;
+}
+
+.change_dialog .form-label {
+  width: 50px;
+  height: 40px;
+  line-height: 42px;
+  font-size: 14px;
+}
+
+.change_dialog .input_phone {
+  height: 38px;
+  width: 338px;
+  margin-left: 12px;
+  text-indent: 14px;
+  font-size: 14px;
+}
+
+.change_dialog .input_code {
+  height: 40px;
+  width: 200px;
+  text-indent: 14px;
+  margin-left: 12px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.change_dialog .send_code {
+  width: 128px;
+  height: 40px;
+  border: 1px solid #1054FF;
+  color: #1054FF;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+}
+
+.change_dialog .able_send:hover {
+  background: #FFFFFF;
+  border: 1px solid #1951FC;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+}
+
+.change_dialog .sure,
+.change_dialog .cancel {
+  height: 38px;
+  line-height: 38px;
+  width: 163px;
+  border: 1px solid #ff6600;
+  text-align: center;
+  display: block;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.change_dialog .sure {
+  color: #ffffff;
+  background: #FF6600;
+  margin-left: 62px;
+  margin-right: 10px;
+}
+
+.change_dialog .cancel {
+  background: #ffffff;
+  color: #FF6600;
+}
+
+.change_dialog .disabled {
+  color: #666666 !important;
+  border: 1px solid #666666 !important;
+}
+
+.change_dialog .sure:hover {
+  background: #FF7317;
+  -webkit-box-shadow: 0 2px 4px 0 #FFC39B;
+  box-shadow: 0 2px 4px 0 #FFC39B;
+  border-radius: 3px;
+}
+
+.change_dialog .cancel:hover {
+  background: #FFFFFF;
+  border: 1px solid #FF6600;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 3px;
+}

@@ -1,0 +1,307 @@
+.quotation_title {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 22px 0px;
+}
+
+.title h3 {
+  font-size: 38px;
+  color: #333333;
+}
+
+.title p {
+  font-size: 12px;
+  color: #333333;
+}
+
+.manager {
+  width: 404px;
+  border: 1px solid #1054FF;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.manager li {
+  height: 36px;
+}
+
+.manager li .position {
+  background: #1054FF;
+  color: #ffffff;
+}
+
+.manager li .position img {
+  margin-right: 5px;
+}
+
+.manager li p {
+  line-height: 36px;
+  padding-left: 10px;
+  color: #333333;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.manager li p:first-child {
+  width: 110px;
+}
+
+.manager li p:nth-child(2n) {
+  width: 160px;
+  margin: 0px 2px;
+}
+
+.manager li p:last-child {
+  width: 130px;
+}
+
+.manager .name {
+  color: #1054FF;
+  padding-left: 0;
+  text-align: center;
+  border-right: 1px solid #1054FF;
+}
+
+.quotation_item {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background: #F6F6F6;
+  margin-bottom: 30px;
+}
+
+.quotation_item ul {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.quotation_item li {
+  width: 125px;
+  background: #ffffff;
+  padding: 6px 10px 10px 10px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+.quotation_item li h4 {
+  color: #6F6F6F;
+  margin-bottom: 7px;
+  line-height: 25px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.quotation_item li .price {
+  background: #6F6F6F;
+  color: #ffffff;
+  height: 40px;
+  padding: 8px 10px;
+}
+
+.quotation_item li .price span {
+  display: inline-block;
+  text-align: center;
+  width: 15px;
+}
+
+.quotation_item li .price p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.quotation_item .active h4 {
+  color: #1054FF;
+}
+
+.quotation_item .active .price {
+  background: #1054FF;
+}
+
+.quotation_detail {
+  width: 998px;
+  margin: 0px auto;
+  border: 1px solid #1054FF;
+}
+
+.quotation_detail h3 {
+  background: #1054FF;
+  padding: 15px 20px;
+  color: #ffffff;
+}
+
+.quotation_detail .quotation_baseinfo {
+  margin-top: 5px;
+}
+
+.quotation_detail h3 p {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.quotation_detail h3 p span:first-child {
+  margin-right: 20px;
+}
+
+.quotation_detail .address {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.info_detail .title {
+  color: #1054FF;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  text-indent: 20px;
+  font-weight: 500;
+}
+
+.ship_info section {
+  margin-top: 10px;
+}
+
+.ship_info table,
+.ship_info table tr th,
+.ship_info table tr td {
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+
+.ship_info table {
+  width: 100%;
+  background: #ffffff;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+}
+
+.ship_info table strong {
+  color: #FF6600;
+  font-weight: 500;
+}
+
+.ship_info table thead {
+  background: rgb(246, 246, 246);
+  color: rgb(153, 153, 153);
+  height: 36px;
+}
+
+.ship_info table tbody tr {}
+
+.ship_info table tbody tr:last-child {
+  border: 0px;
+}
+
+.ship_info table thead tr td {
+  height: 36px;
+  line-height: 36px;
+}
+
+.ship_info table tr td {
+  height: 42px;
+  line-height: 42px;
+}
+
+.ship_info table tr td:last-child {
+  border-right: 0px;
+}
+
+.total_fee {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333333;
+  text-align: right;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 10px;
+}
+
+.total_fee span {
+  color: #FF6600;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.total {
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 30px;
+}
+
+.total span {
+  color: #FF6600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.remark {
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+.remark p {
+  color: #1054FF;
+}
+
+.remark ul {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.remark ul li {
+  margin: 3px;
+  color: rgb(86, 86, 86);
+  font-size: 12px;
+}
+
+.quotation_main .operate {
+  width: 1000px;
+  margin: 0px auto;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.quotation_main .operate li {
+  margin-right: 10px;
+}
+
+.quotation_main .operate li a {
+  width: 148px;
+  height: 38px;
+  border: 1px solid #ff6600;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ff6600;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  display: block;
+  line-height: 38px;
+  text-align: center;
+}
+
+.quotation_main .operate li a:hover {
+  background: #FFFFFF;
+  border: 1px solid #FF6600;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 3px;
+}
+
+.quotation_main .operate .download {
+  background: #ff6600;
+  color: #ffffff;
+}
+
+.quotation_main .operate .download:hover {
+  background: #FF7317;
+  -webkit-box-shadow: 0 2px 4px 0 #FFC39B;
+  box-shadow: 0 2px 4px 0 #FFC39B
+}

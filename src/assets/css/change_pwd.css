@@ -1,0 +1,72 @@
+.change_header {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.change_header h4 {
+  padding-top: 22px;
+  padding-bottom: 23px;
+  width: 944px;
+  margin: 0px auto;
+  font-size: 18px;
+  color: #333333;
+}
+
+.change_main {
+  padding-top: 50px;
+  width: 944px;
+  margin: 0px auto;
+}
+
+.change_pwd .form-group {
+  position: relative;
+  height: 60px;
+  width: 600px;
+}
+
+.form-group .control_label {
+  width: 86px;
+  text-align: right;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 18px;
+}
+
+.form-group .control_label .must {
+  position: absolute;
+  top: 5px;
+  left: 90px;
+}
+
+.form-group .control_input {
+  width: 358px;
+  height: 28px;
+  text-indent: 10px;
+}
+
+.change_main .submit {
+  display: block;
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background: #ff6600;
+  margin-left: 104px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.change_main .submit:hover {
+  background: #FF7317;
+}
+
+.change_pwd .resetpwd {
+  color: #ff0000;
+  font-size: 12px;
+  position: absolute;
+  left: 480px;
+  top: 7px;
+}
+
+.change_pwd .resetpwd:hover {
+  text-decoration: underline;
+}

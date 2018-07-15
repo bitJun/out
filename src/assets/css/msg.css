@@ -1,0 +1,112 @@
+.msg_view .title {
+  border-top: 1px solid #eeeeee;
+}
+
+.msg_view .title p {
+  width: 944px;
+  margin: 0px auto;
+  padding: 21px 0px 24px 0px;
+  font-size: 18px;
+  color: #333333;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.msg_view .msg_main {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.msg_view .msg_main .quick_operate li {
+  margin-left: 29px;
+}
+
+.msg_view .msg_main .quick_operate li a {
+  height: 16px;
+  display: block;
+  line-height: 16px;
+  font-size: 12px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  color: #1054FF;
+}
+
+.msg_view .msg_main .quick_operate li a:hover {
+  text-decoration: underline;
+}
+
+.msg_view .msg_main .quick_operate li a img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.msg_view .msg_filter {
+  border-bottom: 3px solid #eeeeee;
+  padding-bottom: 12px;
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+.msg_list li {
+  padding: 15px;
+  padding-left: 25px;
+  border-bottom: 1px dashed #DDDDDD;
+  position: relative;
+}
+
+.msg_list li input {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.msg_list li .item {
+  cursor: pointer;
+}
+
+.msg_list li:last-child {
+  border-bottom: 0px;
+}
+
+.msg_list li h4 {
+  margin-bottom: 10px;
+}
+
+.msg_list li h4 imput {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #eeeeee;
+}
+
+.msg_list li h4 span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.msg_list li p {
+  text-indent: 22px;
+  font-size: 12px;
+  height: 17px;
+  line-height: 17px;
+}
+
+.msg_list li span.strong {
+  color: #1054FF;
+}
+
+.msg_list li .title {
+  margin-top: 3px;
+}
+
+.msg_list h4 span,
+.msg_list p {
+  color: #999;
+  font-weight: 500;
+}
+
+.msg_list .active h4 span,
+.msg_list .active p {
+  color: #333333;
+  font-weight: 600;
+}

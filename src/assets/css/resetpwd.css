@@ -1,0 +1,67 @@
+.reset_pwd {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -200px;
+  /* -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.reset_pwd h3 {
+  font-size: 30px;
+  position: relative;
+  height: 60px;
+  color: #333;
+  font-weight: 500;
+}
+
+.reset_pwd label {
+  width: 40px;
+  height: 2px;
+  background: #333333;
+  position: absolute;
+  bottom: 0px;
+  left: 180px;
+}
+
+.reset_pwd .reset_tab {
+  padding: 0px 10px;
+  margin-bottom: 55px;
+}
+
+.reset_pwd .reset_tab li {
+  height: 58px;
+  text-align: center;
+}
+
+.reset_pwd .reset_tab li:nth-child(2n+1) {
+  float: left;
+  width: 20%;
+}
+
+.reset_pwd .reset_tab li:first-child {
+  float: left;
+  width: 20%;
+}
+
+.reset_pwd .reset_tab li:nth-child(2n-1) img {
+  width: 58px;
+}
+
+.reset_pwd .reset_tab li:nth-child(2n) {
+  float: left;
+  width: 20%;
+  line-height: 69px;
+}
+
+.reset_pwd .reset_tab li:nth-child(2n) img {
+  height: 22px;
+}
+
+.checkphone_form .form-group input {
+  text-indent: 16px;
+  width: 396px;
+  height: 38px;
+}

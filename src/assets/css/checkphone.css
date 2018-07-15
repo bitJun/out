@@ -1,0 +1,48 @@
+.checkphone_form .form-group {
+  height: 60px;
+  position: relative;
+}
+
+.checkphone_form .form-group input {
+  width: 396px;
+}
+
+.checkphone_form .form-group .code {
+  width: 258px;
+  height: 38px;
+}
+
+.checkphone_form .form-group .send_code {
+  height: 38px;
+  width: 126px;
+  margin-left: 8px;
+  line-height: 38px;
+  font-size: 14px;
+  border: 1px solid #1054FF;
+  color: #1054FF;
+}
+
+.checkphone_form .form-group .able_send:hover {
+  background: #FFFFFF;
+  border: 1px solid #1951FC;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+}
+
+.checkphone_form .form-group .disabled {
+  color: #666666 !important;
+  border: 1px solid #666666 !important;
+}
+
+.submit {
+  width: 220px;
+  height: 40px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  background: #FF6600;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}

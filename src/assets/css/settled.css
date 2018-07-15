@@ -1,0 +1,119 @@
+.Shipping {
+  height: 500px;
+  background: url('../images/img_cgsrz_1.png') no-repeat;
+}
+
+.Shipping h4 {
+  padding-top: 176px;
+  margin-bottom: 36px;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.Shipping p {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.Shipping p span {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.get {
+  height: 478px;
+}
+
+.get h4 {
+  font-size: 20px;
+  color: #333333;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.get .list {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.get .list li {
+  text-align: center;
+  width: 301px;
+}
+
+.get .list li:nth-child(2n) {
+  width: 302px;
+  margin: 0px 20px;
+}
+
+.get .list li h5 {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.get .list li p {
+  font-size: 14px;
+  color: #999999;
+  line-height: 20px;
+}
+
+.how {
+  height: 610px;
+  background: url('../images/img_rhsyh_1.png') no-repeat;
+}
+
+.how h4 {
+  font-size: 20px;
+  color: #333333;
+  padding-top: 50px;
+  margin-bottom: 55px;
+}
+
+.how ul {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.how ul li {
+  margin-bottom: 50px;
+}
+
+.how ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.how ul li img {
+  margin-left: 70px;
+}
+
+.how ul li .content {
+  padding-left: 283px;
+}
+
+.how ul li .content h5 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.how ul li .content p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.right_now {
+  background: #1951FC;
+  height: 120px;
+}
+
+.right_now h4 {
+  padding-top: 53px;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 14px;
+}

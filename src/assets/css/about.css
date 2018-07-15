@@ -1,0 +1,324 @@
+.about_us {
+  height: 500px;
+  background: url("../images/img_gywm_1.png") no-repeat;
+}
+
+.about_us h1 {
+  padding-top: 176px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 34px;
+}
+
+.about_us p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 24px;
+}
+
+.team {
+  height: 460px;
+}
+
+.team h4 {
+  font-size: 20px;
+  color: #333333;
+  line-height: 20px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team .discribe {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 57px;
+}
+
+center ul {
+  width: 878px;
+}
+
+center li {
+  width: 158px;
+  margin-right: 82px;
+}
+
+center li:last-child {
+  margin-right: 0px;
+}
+
+center li img {
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+center li .name {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+center li .position {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+}
+
+.values {
+  background: #1951FC;
+  height: 388px;
+}
+
+.values h4 {
+  padding-top: 50px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.values .value {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 51px;
+}
+
+.values ul {
+  width: 763px;
+  margin: 0px auto;
+}
+
+.values ul li {
+  width: 126px;
+}
+
+.values ul li:nth-child(2n) {
+  margin-left: 190px;
+  margin-right: 195px;
+}
+
+.values ul li p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 7px;
+}
+
+.Brand {
+  height: 470px;
+}
+
+.Brand h4 {
+  padding-top: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.Brand p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #999999;
+}
+
+.brand_list {
+  width: 972px;
+  margin: 0px auto;
+}
+
+.brand_list li {
+  height: 280px;
+  margin-right: 16px;
+}
+
+.brand_list li img {
+  width: 224px;
+}
+
+.brand_list li:last-child {
+  width: 470px;
+  margin-right: 0px;
+}
+
+.brand_list li:last-child img:nth-child(2n) {
+  margin-left: 16px;
+}
+
+.Business {
+  height: 581px;
+  width: 944px;
+  margin: 0px auto;
+}
+
+.Business h4 {
+  padding-top: 54px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333333;
+  line-height: 20px;
+  text-align: center;
+}
+
+.Business p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 20px;
+}
+
+.idea {
+  position: relative;
+  margin-top: 52px;
+}
+
+.idea .idea_item {
+  padding-right: 368px;
+}
+
+.idea .idea_item li {
+  margin-bottom: 50px;
+}
+
+.idea .idea_item li:last-child {
+  margin-bottom: 0px;
+}
+
+.idea .idea_item li h5 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 6px;
+  line-height: 20px;
+}
+
+.idea .idea_item li p {
+  font-size: 14px;
+  color: #999999;
+  line-height: 20px;
+}
+
+.idea .idea_item li p span {
+  color: #151515;
+}
+
+.idea img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 362px;
+  width: 278px;
+}
+
+.commitment {
+  height: 475px;
+  padding-top: 55px;
+  background: #383B53;
+}
+
+.commitment h4 {
+  width: 226px;
+  height: 49px;
+  line-height: 49px;
+  font-size: 20px;
+  color: #ffffff;
+  background: #1054FF;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.commitment .service {
+  width: 944px;
+  margin: 0px auto;
+  padding-top: 54px;
+}
+
+.commitment .service li {
+  width: 50%;
+  float: left;
+  height: 104px;
+  margin-bottom: 71px;
+}
+
+.commitment .service li h5 {
+  color: #97B1FF;
+  font-size: 18px;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+
+.commitment .service li p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+  padding-right: 44px;
+}
+
+.show {
+  padding: 50px 0px;
+  height: 280px;
+}
+
+.show_item {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.show_item li {
+  margin-right: 16px;
+}
+
+.show_item li:last-child {
+  margin-right: 0px;
+}
+
+.show_item li .big img {
+  width: 224px;
+  height: 280px;
+}
+
+.show_item .small {
+  width: 464px;
+}
+
+.show_item .small img {
+  width: 224px;
+  height: 132px;
+}
+
+.join {
+  background: #1054FF;
+  height: 103px;
+  padding: 46px 0px 51px 0px;
+}
+
+.join_us {
+  width: 944px;
+  margin: 0px auto;
+}
+
+.address {
+  width: 279px;
+  margin-right: 42px;
+}
+
+.welcome {
+  width: 619px;
+}
+
+.address h4,
+.welcome h4 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.address p,
+.welcome p {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+}

@@ -1,0 +1,243 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Microsoft YaHei'
+}
+
+*:focus {
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.unvisible {
+  display: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+input {
+  border: 0px
+}
+
+.current-page {
+  overflow: hidden;
+}
+
+
+/*遮罩层*/
+
+.popup-overlay.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-overlay {
+  z-index: 10200;
+}
+
+.popup-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .8);
+  z-index: 9990;
+  opacity: .6;
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+}
+
+.form {
+  padding: 30px;
+}
+
+form .form-group {
+  position: relative;
+}
+
+.form .form-group {
+  height: 60px;
+}
+
+.form .form-group input {
+  width: 336px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  text-indent: 14px;
+}
+
+.form .form-group .code {
+  width: 198px;
+}
+
+.form .form-group .send_code {
+  width: 128px;
+  height: 40px;
+  display: block;
+  border: 1px solid #1054FF;
+  color: #1054FF;
+  font-size: 14px;
+  line-height: 40px;
+  margin-left: 8px;
+  text-indent: 0px;
+  cursor: pointer;
+}
+
+.form .form-group .able_send:hover {
+  background: #FFFFFF;
+  border: 1px solid #1951FC;
+  -webkit-box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.10);
+}
+
+.form .form-group .disabled {
+  color: #666666;
+  border: 1px solid #666666;
+}
+
+.must {
+  color: #ff0000;
+}
+
+input[type='text'],
+input[type='password'] {
+  height: 38px;
+  border: 1px solid #DDDDDD;
+}
+
+input[type='text']::-webkit-input-placeholder,
+input[type='password']::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+input[type='text']:-ms-input-placeholder,
+input[type='password']:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+input[type='text']::placeholder,
+input[type='password']::placeholder {
+  color: #aaaaaa;
+}
+
+input[type='text'].placeholder,
+input[type='password'].placeholder {
+  color: #aaaaaa;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+  border: 1px solid #1054FF;
+  background: #E7EEFF;
+}
+
+input[type='text'].error:focus,
+input[type='text'].tiperror:focus,
+input[type='password'].error:focus,
+input[type='password'].tiperror:focus {
+  color: red;
+  border: 1px solid red;
+  background: #FFD5D5;
+}
+
+input[readonly='readonly']:focus {
+  border: 1px solid #DDDDDD;
+}
+
+input.error,
+input.tiperror {
+  color: red;
+  border: 1px solid red;
+  background: #FFD5D5;
+}
+
+.error-input-text {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 33.33333%;
+}
+
+.w-1 {
+  width: 100%;
+}
